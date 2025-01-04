@@ -19,7 +19,7 @@ This repository provides a Bash script for automating the creation of users, gro
 
 1. Clone the Repository:
 
-    `$ git clone https://github.com/yourusername/create-users-groups.git`
+    `$ git clone [repository-url]`
 
     `$ cd create-users-groups`
 
