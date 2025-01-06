@@ -4,11 +4,11 @@ group_names=("sales" "finance" "marketing" "public")
 
 user_names_sales=("carlos" "maria" "joao")
 
-user_names_finance=("debara" "sebastiana" "roberto")
+user_names_finance=("debora" "sebastiana" "roberto")
 
-user_names_marketing=("josefina" "amanada" "rogerio")
+user_names_marketing=("josefina" "amanda" "rogerio")
 
-user_names=("carlos" "maria" "joao" "debara" "sebastiana" "roberto" "josefina" "amanada" "rogerio")
+user_names=("carlos" "maria" "joao" "debora" "sebastiana" "roberto" "josefina" "amanda" "rogerio")
 
 sudo mkdir /shared_group_directories
 
