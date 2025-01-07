@@ -43,7 +43,7 @@ done
 
 for username in "${user_names[@]}"; do
 	user_password=$(python3 PasswordGenerator.py)
-	echo "$username:$user_password" >> users_password.txt
+	sudo echo "$username:$user_password" >> users_password.txt
 	echo "$username:$user_password" | sudo chpasswd
 	sudo chage -d 0 $username
 done
