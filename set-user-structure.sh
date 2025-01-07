@@ -12,7 +12,7 @@ user_names=("carlos" "maria" "joao" "debora" "sebastiana" "roberto" "josefina" "
 
 sudo mkdir /shared_group_directories
 
-sudo mkdir users_password.txt
+sudo touch users_password.txt
 
 sudo chmod 700 users_password.txt
 
