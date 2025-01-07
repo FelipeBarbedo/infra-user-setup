@@ -21,15 +21,15 @@ This repository provides a Bash script for automating the creation of users, gro
 
     `$ git clone [repository-url]`
 
-    `$ cd create-users-groups`
+    `$ cd infra-user-setup`
 
 2. Review and Edit the Script:
 
-    Open `create-users-groups.sh` to customize user and group details according to your requirements.
+    Open `set_user_structure.sh` to customize user and group details according to your requirements.
 
 3. Run the Script with sudo privile:
 
-    `$ sudo ./create-users-groups.sh`
+    `$ sudo ./set_user_structure.sh`
 
 ## Script Overview
 
