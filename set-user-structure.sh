@@ -12,9 +12,9 @@ user_names=("carlos" "maria" "joao" "debora" "sebastiana" "roberto" "josefina" "
 
 sudo mkdir /shared_group_directories
 
-sudo touch users_password.txt
+touch users_password.txt
 
-sudo chmod 700 users_password.txt
+sudo chmod 600 users_password.txt
 
 echo "Initial passwords defined for system users:" >> users_password.txt
 
@@ -43,7 +43,7 @@ done
 
 for username in "${user_names[@]}"; do
 	user_password=$(python3 PasswordGenerator.py)
-	sudo echo "$username:$user_password" >> users_password.txt
+	echo "$username:$user_password" >> users_password.txt
 	echo "$username:$user_password" | sudo chpasswd
 	sudo chage -d 0 $username
 done
